@@ -1,0 +1,8 @@
+.star {
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.star--active {
+    font-weight: 700;
+}
