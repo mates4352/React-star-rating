@@ -1,4 +1,10 @@
 .reacting {
     display: flex;
+    align-items: center;
     gap: 12px;
+}
+
+.button {
+    height: 40px;
+    width: 30px;
 }

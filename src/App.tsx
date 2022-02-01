@@ -1,10 +1,16 @@
+import { useState } from 'react';
 import './App.css';
-import { Reacting } from './components/reacting/Reacting';
+import { Reacting, valueActiveStar } from './components/reacting/Reacting';
 
 export const App = () => {
+  const [valueStar, setValueStar] = useState<valueActiveStar>(0);
+  const changeValueStar = (value: valueActiveStar) => {
+    setValueStar(value)
+  }
+
   return (
     <div className='app'>
-          <Reacting/>
+          <Reacting value={valueStar} changeValueStar={changeValueStar}/>
     </div>
   );
 }

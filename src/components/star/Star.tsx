@@ -6,8 +6,8 @@ export type starType = {
 }
 
 
-export const Star:React.FC<starType> = (props) => {
-  const isClassActive = props.selected ? "star star--active" : "star";
+export const Star:React.FC<starType> = ({selected}) => {
+  const isClassActive = selected ? "star star--active" : "star";
   return (
     <div className={isClassActive}>
         Star
