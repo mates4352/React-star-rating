@@ -1,0 +1,9 @@
+.title {
+    font-size:25px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
