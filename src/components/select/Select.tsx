@@ -36,29 +36,26 @@ export const Select: React.FC<selectType> = (
          }
          else setSelectValue(options[options.indexOf(value) - 1])
       }
-
-      if(e.key === 'Enter') {
-         setIsShowList(!isShowList)
-      }
    }
    const getClassHover = (option: string) => {
       return option === value ? s.inputHover : '';
    }
    const inputRef = React.createRef<any>();
    return (
-       <>
-          <input className={s.input} type='text' value={value} onClick={showList} ref={inputRef}
+       <div className={s.select}>
+          <input className={s.input} type='button' value={value} onClick={showList} ref={inputRef}
                  onKeyUp={changeArrowUpDownOption}/>
 
           {isShowList &&
-             <ul tabIndex={0} >
+             <ul>
                 {
                    options.map((option, index) =>
                        <li key={index}>
                           <input
                               className={`${s.input} ${getClassHover(option)}`}
                               type='button'
-                              onClick={() => changeValue(option)} value={option}
+                              value={option}
+                              onClick={() => changeValue(option)}
                               onKeyUp={changeArrowUpDownOption}/>
                        </li>
                    )
@@ -66,6 +63,6 @@ export const Select: React.FC<selectType> = (
              </ul>
 
           }
-       </>
+       </div>
    );
 };

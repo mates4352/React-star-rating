@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534fa0a3-66b9-4ad5-bd98-3d1721dd7fa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/reacting/Reacting.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/select/Select.module.css" afterDir="false" />
+    <list default="true" id="534fa0a3-66b9-4ad5-bd98-3d1721dd7fa7" name="Changes" comment="Add component customSelect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reacting/Reacting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reacting/Reacting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/select/Select.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +66,16 @@
       <workItem from="1648230730097" duration="3830000" />
       <workItem from="1648304104187" duration="2831000" />
       <workItem from="1649697415123" duration="9297000" />
-      <workItem from="1649747226114" duration="15885000" />
+      <workItem from="1649747226114" duration="16527000" />
     </task>
+    <task id="LOCAL-00001" summary="Add component customSelect">
+      <created>1649771476098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649771476098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add component customSelect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add component customSelect" />
   </component>
 </project>
