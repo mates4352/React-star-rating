@@ -1,0 +1,18 @@
+.input {
+   width: 150px;
+   height: 30px;
+   border: 1px solid #999;
+   outline: none;
+   padding: 0 8px;
+   transition: background 300ms ease;
+   cursor: pointer;
+}
+
+.input:hover {
+   background: aliceblue;
+}
+
+.inputHover {
+   border: 2px solid tomato;
+   background: aliceblue;
+}
